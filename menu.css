@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(32deg, rgba(34, 193, 195, 1) 0%, rgba(210, 55, 21, 1) 69%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.container {
+    padding: 2rem 5%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1.5rem; */
+}
+
+.card {
+    background: floralwhite;
+    padding: 15px 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0, 0, 5);
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.box:hover {
+    background-color: #ffa500 !important;
+    cursor: pointer;
+}
